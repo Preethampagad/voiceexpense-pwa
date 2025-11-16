@@ -19,6 +19,19 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    },
+    {
+        "name": "VoiceExpense",
+        "short_name": "VoiceExpense",
+        "description": "Voice-first expense tracker — speak to add, categorize & track expenses.",
+        "start_url": "/dashboard",
+        "display": "standalone",
+        "background_color": "#ffffff",
+        "theme_color": "#1e90ff",
+        "icons": [
+            { "src": "https://preethampagad.github.io/voiceexpense-pwa/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose":"any maskable" },
+            { "src": "https://preethampagad.github.io/voiceexpense-pwa/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose":"any maskable" }
+        ]
     }
   ]
 }
